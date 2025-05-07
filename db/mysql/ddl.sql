@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-CREATE TABLE `tb_record_task_template` (
+CREATE TABLE `tb_record_task_template` (     
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增主键',
   `template_id` varchar(64) NOT NULL DEFAULT '' COMMENT '任务id',
   `template_name` varchar(128) NOT NULL DEFAULT '' COMMENT '任务名称',
